@@ -4,9 +4,9 @@ exports[`Should be able to render auto-implemented properties in CSharp and shou
 Array [
   "public partial class Root
 {
-  public string[]? Emails { get; set; }
-  public string? StringProp { get; set; }
-  public double? NumberProp { get; set; }
+  public string[]? emails { get; set; }
+  public string? stringProp { get; set; }
+  public double? numberProp { get; set; }
 }",
 ]
 `;

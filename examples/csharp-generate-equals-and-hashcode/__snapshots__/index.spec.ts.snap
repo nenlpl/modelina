@@ -6,7 +6,7 @@ Array [
 {
   private string? email;
 
-  public string? Email 
+  public string? email 
   {
     get { return email; }
     set { this.email = value; }

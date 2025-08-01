@@ -11,36 +11,36 @@ public partial class Test
   private NestedTest? objectProp;
   private Dictionary<string, dynamic>? additionalProperties;
 
-  public string StringProp 
+  public string stringProp 
   {
     get { return stringProp; }
     set { this.stringProp = value; }
   }
 
-  public string? ConstStringProp 
+  public string? constStringProp 
   {
     get { return constStringProp; }
   }
 
-  public double? NumberProp 
+  public double? numberProp 
   {
     get { return numberProp; }
     set { this.numberProp = value; }
   }
 
-  public EnumTest? EnumProp 
+  public EnumTest? enumProp 
   {
     get { return enumProp; }
     set { this.enumProp = value; }
   }
 
-  public NestedTest? ObjectProp 
+  public NestedTest? objectProp 
   {
     get { return objectProp; }
     set { this.objectProp = value; }
   }
 
-  public Dictionary<string, dynamic>? AdditionalProperties 
+  public Dictionary<string, dynamic>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }
@@ -249,13 +249,13 @@ public partial class NestedTest
   private string? stringProp;
   private Dictionary<string, dynamic>? additionalProperties;
 
-  public string? StringProp 
+  public string? stringProp 
   {
     get { return stringProp; }
     set { this.stringProp = value; }
   }
 
-  public Dictionary<string, dynamic>? AdditionalProperties 
+  public Dictionary<string, dynamic>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }

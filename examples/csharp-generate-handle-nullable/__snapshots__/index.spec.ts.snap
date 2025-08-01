@@ -4,15 +4,15 @@ exports[`Should be able to render a C# class with null warning removed with hand
 Array [
   "public partial class Root
 {
-  public string? Email { get; set; }
-  public string Name { get; set; } = null!;
-  public int Age { get; set; }
-  public System.DateTime ApplicationDate { get; set; }
-  public System.DateTimeOffset Timestamp { get; set; }
-  public System.DateTime? ApplicationDate2 { get; set; }
-  public System.DateTimeOffset? Timestamp2 { get; set; }
-  public Dictionary<string, dynamic>[]? NullableFoos { get; set; }
-  public Dictionary<string, dynamic>[] MandatoryFoos { get; set; } = null!;
+  public string? email { get; set; }
+  public string name { get; set; } = null!;
+  public int age { get; set; }
+  public System.DateTime applicationDate { get; set; }
+  public System.DateTimeOffset timestamp { get; set; }
+  public System.DateTime? applicationDate2 { get; set; }
+  public System.DateTimeOffset? timestamp2 { get; set; }
+  public Dictionary<string, dynamic>[]? nullableFoos { get; set; }
+  public Dictionary<string, dynamic>[] mandatoryFoos { get; set; } = null!;
 }",
 ]
 `;

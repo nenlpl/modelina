@@ -18,13 +18,13 @@ exports[`CSharpGenerator class renderer should be able to overwrite property pre
   my own property
   my own property
 
-  public string? Property 
+  public string? property 
   {
     get { return property; }
     set { this.property = value; }
   }
 
-  public Dictionary<string, string>? AdditionalProperties 
+  public Dictionary<string, string>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }
@@ -38,12 +38,12 @@ exports[`CSharpGenerator class renderer should generate a const string 1`] = `
   private const string property = \\"test\\";
   private Dictionary<string, string>? additionalProperties;
 
-  public string Property 
+  public string property 
   {
     get { return property; }
   }
 
-  public Dictionary<string, string>? AdditionalProperties 
+  public Dictionary<string, string>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }
@@ -72,55 +72,55 @@ exports[`CSharpGenerator should render \`class\` type 1`] = `
   private string[] arrayType;
   private Dictionary<string, dynamic>? additionalProperties;
 
-  public string StreetName 
+  public string streetName 
   {
     get { return streetName; }
     set { this.streetName = value; }
   }
 
-  public string City 
+  public string city 
   {
     get { return city; }
     set { this.city = value; }
   }
 
-  public string State 
+  public string state 
   {
     get { return state; }
     set { this.state = value; }
   }
 
-  public double HouseNumber 
+  public double houseNumber 
   {
     get { return houseNumber; }
     set { this.houseNumber = value; }
   }
 
-  public bool? Marriage 
+  public bool? marriage 
   {
     get { return marriage; }
     set { this.marriage = value; }
   }
 
-  public dynamic? Members 
+  public dynamic? members 
   {
     get { return members; }
     set { this.members = value; }
   }
 
-  public dynamic[]? TupleType 
+  public dynamic[]? tupleType 
   {
     get { return tupleType; }
     set { this.tupleType = value; }
   }
 
-  public string[] ArrayType 
+  public string[] arrayType 
   {
     get { return arrayType; }
     set { this.arrayType = value; }
   }
 
-  public Dictionary<string, dynamic>? AdditionalProperties 
+  public Dictionary<string, dynamic>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }
@@ -243,55 +243,55 @@ namespace Test.Namespace
     private OtherModel? otherModel;
     private Dictionary<string, dynamic>? additionalProperties;
 
-    public string StreetName 
+    public string streetName 
     {
       get { return streetName; }
       set { this.streetName = value; }
     }
 
-    public string City 
+    public string city 
     {
       get { return city; }
       set { this.city = value; }
     }
 
-    public string State 
+    public string state 
     {
       get { return state; }
       set { this.state = value; }
     }
 
-    public double HouseNumber 
+    public double houseNumber 
     {
       get { return houseNumber; }
       set { this.houseNumber = value; }
     }
 
-    public bool? Marriage 
+    public bool? marriage 
     {
       get { return marriage; }
       set { this.marriage = value; }
     }
 
-    public dynamic? Members 
+    public dynamic? members 
     {
       get { return members; }
       set { this.members = value; }
     }
 
-    public dynamic[] ArrayType 
+    public dynamic[] arrayType 
     {
       get { return arrayType; }
       set { this.arrayType = value; }
     }
 
-    public OtherModel? OtherModel 
+    public OtherModel? otherModel 
     {
       get { return otherModel; }
       set { this.otherModel = value; }
     }
 
-    public Dictionary<string, dynamic>? AdditionalProperties 
+    public Dictionary<string, dynamic>? additionalProperties 
     {
       get { return additionalProperties; }
       set { this.additionalProperties = value; }
@@ -311,13 +311,13 @@ namespace Test.Namespace
     private string? streetName;
     private Dictionary<string, dynamic>? additionalProperties;
 
-    public string? StreetName 
+    public string? streetName 
     {
       get { return streetName; }
       set { this.streetName = value; }
     }
 
-    public Dictionary<string, dynamic>? AdditionalProperties 
+    public Dictionary<string, dynamic>? additionalProperties 
     {
       get { return additionalProperties; }
       set { this.additionalProperties = value; }
@@ -341,67 +341,67 @@ exports[`CSharpGenerator should render null-forgiving operator if handleNullable
   private string[] arrayType = null!;
   private Dictionary<string, dynamic>? additionalProperties;
 
-  public string StreetName 
+  public string streetName 
   {
     get { return streetName; }
     set { this.streetName = value; }
   }
 
-  public string City 
+  public string city 
   {
     get { return city; }
     set { this.city = value; }
   }
 
-  public string State 
+  public string state 
   {
     get { return state; }
     set { this.state = value; }
   }
 
-  public double HouseNumber 
+  public double houseNumber 
   {
     get { return houseNumber; }
     set { this.houseNumber = value; }
   }
 
-  public bool? Marriage 
+  public bool? marriage 
   {
     get { return marriage; }
     set { this.marriage = value; }
   }
 
-  public HouseType HouseType 
+  public HouseType houseType 
   {
     get { return houseType; }
     set { this.houseType = value; }
   }
 
-  public TerraceType? TerraceType 
+  public TerraceType? terraceType 
   {
     get { return terraceType; }
     set { this.terraceType = value; }
   }
 
-  public dynamic? Members 
+  public dynamic? members 
   {
     get { return members; }
     set { this.members = value; }
   }
 
-  public dynamic[]? TupleType 
+  public dynamic[]? tupleType 
   {
     get { return tupleType; }
     set { this.tupleType = value; }
   }
 
-  public string[] ArrayType 
+  public string[] arrayType 
   {
     get { return arrayType; }
     set { this.arrayType = value; }
   }
 
-  public Dictionary<string, dynamic>? AdditionalProperties 
+  public Dictionary<string, dynamic>? additionalProperties 
   {
     get { return additionalProperties; }
     set { this.additionalProperties = value; }

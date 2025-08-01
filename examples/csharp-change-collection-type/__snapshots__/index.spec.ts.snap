@@ -6,7 +6,7 @@ Array [
 {
   private IEnumerable<string>? email;
 
-  public IEnumerable<string>? Email 
+  public IEnumerable<string>? email 
   {
     get { return email; }
     set { this.email = value; }

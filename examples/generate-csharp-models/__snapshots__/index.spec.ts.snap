@@ -9,25 +9,25 @@ Array [
   private System.TimeSpan? duration;
   private System.Guid? userId;
 
-  public string? Email 
+  public string? email 
   {
     get { return email; }
     set { this.email = value; }
   }
 
-  public System.DateTimeOffset? Today 
+  public System.DateTimeOffset? today 
   {
     get { return today; }
     set { this.today = value; }
   }
 
-  public System.TimeSpan? Duration 
+  public System.TimeSpan? duration 
   {
     get { return duration; }
     set { this.duration = value; }
   }
 
-  public System.Guid? UserId 
+  public System.Guid? userId 
   {
     get { return userId; }
     set { this.userId = value; }

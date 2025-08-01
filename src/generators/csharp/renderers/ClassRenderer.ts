@@ -4,7 +4,6 @@ import {
   ConstrainedObjectModel,
   ConstrainedObjectPropertyModel
 } from '../../../models';
-import { pascalCase } from 'change-case';
 import { CsharpClassPreset } from '../CSharpPreset';
 import { CSharpOptions } from '../CSharpGenerator';
 import { isPrimitive, isEnum, isStringRenderingType } from '../Constants';
@@ -117,15 +116,15 @@ export const CSHARP_DEFAULT_CLASS_PRESET: CsharpClassPreset<CSharpOptions> = {
       const setter = await renderer.runSetterPreset(property);
 
       if (property.property.options.const) {
-        return `public const ${property.property.type} ${pascalCase(
+        return `public const ${property.property.type} ${
           property.propertyName
-        )} { ${getter} } = ${property.property.options.const.value};`;
+        } { ${getter} } = ${property.property.options.const.value};`;
       }
 
       const semiColon = nullablePropertyEnding !== '' ? ';' : '';
-      return `public ${property.property.type} ${pascalCase(
+      return `public ${property.property.type} ${
         property.propertyName
-      )} { ${getter} ${setter} }${nullablePropertyEnding}${semiColon}`;
+      } { ${getter} ${setter} }${nullablePropertyEnding}${semiColon}`;
     }
 
     if (property.property.options.const) {
@@ -134,7 +133,7 @@ export const CSHARP_DEFAULT_CLASS_PRESET: CsharpClassPreset<CSharpOptions> = {
     return `private ${property.property.type} ${property.propertyName}${nullablePropertyEnding};`;
   },
   async accessor({ renderer, options, property }) {
-    const formattedAccessorName = pascalCase(property.propertyName);
+    const formattedAccessorName = property.propertyName;
     if (options?.autoImplementedProperties) {
       return '';
     }

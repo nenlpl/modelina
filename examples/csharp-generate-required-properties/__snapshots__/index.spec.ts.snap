@@ -9,25 +9,25 @@ Array [
   private string requiredString;
   private string? notRequiredString;
 
-  public bool RequiredBoolean 
+  public bool requiredBoolean 
   {
     get { return requiredBoolean; }
     set { this.requiredBoolean = value; }
   }
 
-  public bool? NotRequiredBoolean 
+  public bool? notRequiredBoolean 
   {
     get { return notRequiredBoolean; }
     set { this.notRequiredBoolean = value; }
   }
 
-  public string RequiredString 
+  public string requiredString 
   {
     get { return requiredString; }
     set { this.requiredString = value; }
   }
 
-  public string? NotRequiredString 
+  public string? notRequiredString 
   {
     get { return notRequiredString; }
     set { this.notRequiredString = value; }
