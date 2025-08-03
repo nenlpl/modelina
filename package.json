@@ -1,18 +1,18 @@
 {
-  "name": "@asyncapi/modelina",
+  "name": "@nenlp/modelina",
   "version": "5.3.7",
-  "description": "Library for generating data models based on inputs such as AsyncAPI, OpenAPI, or JSON Schema documents",
+  "description": "Fork of asyncapi/modelina Library for generating data models based on inputs such as AsyncAPI, OpenAPI, or JSON Schema documents",
   "license": "Apache-2.0",
   "homepage": "https://www.modelina.org",
   "bugs": {
-    "url": "https://github.com/asyncapi/modelina/issues"
+    "url": "https://github.com/nenlp/modelina/issues"
   },
   "engines": {
     "node": ">=18"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/asyncapi/modelina.git"
+    "url": "git://github.com/nenlp/modelina.git"
   },
   "keywords": [
     "asyncapi",
