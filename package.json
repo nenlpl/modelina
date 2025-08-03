@@ -1,5 +1,5 @@
 {
-  "name": "@nenlpl/modelina",
+  "name": "@nenlp/modelina",
   "version": "5.3.7-csharp-propnamefix",
   "description": "Library for generating data models based on inputs such as AsyncAPI, OpenAPI, or JSON Schema documents",
   "license": "Apache-2.0",
